@@ -1,0 +1,176 @@
+/* 
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+*/
+
+/* Soy un comentario */
+
+body {
+    background-color: #c9f3c1;
+    font-family: 'Calistoga', cursive;
+    font-family: 'Taviraj', serif;
+    color: #161b27;
+    font-weight: bold;
+    margin: 2%;
+    /* background: radial-gradient(circle, var(--color-purple) 0%, var (--color-purple)); */
+}
+/* Intro*/
+.navbar{
+    margin: -2%;
+}
+.intro p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 8%;
+    color: green;
+}
+.bienvenida p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(190, 21, 168);
+}
+
+/* PARTE INICIAL*/
+/* Carrusel Info sobre algunos animales*/ 
+.conoce{
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .datos-foto {
+    height: 300px;
+    width: 300px;
+  }
+  .datos-info{
+    font-family: 'Big Shoulders Inline Text', cursive;
+  }
+  
+  .datos-texto-texto {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .datos-info {
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+  }
+
+/*Galeria*/
+.galeria{
+    width: 300px;
+    height: 300px;
+    margin-left: 40%;
+    margin-bottom: 2%;}
+.galeria-title{
+    font-family: 'Bungee Spice', cursive;
+    font-palette: --custom-palette;
+  }
+  
+@font-palette-values --custom-palette {
+    font-family: 'Bungee Spice';
+    override-colors: 0 #339444, 1 #09622a;
+  }
+  img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.05);
+    transform: rotate(-1.2deg) scale(1.05);
+    transition: 0.6s ease-out;
+    filter: grayscale(0.9);
+}
+
+/* CONTENIDO*/ 
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    color: rgb(27, 16, 11);
+    font-size: 14px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: rgb(136, 204, 136);
+    border: 1px solid rgb(8, 36, 77);
+}
+ol{
+    color: rgb(27, 16, 11);
+    font-size: 14px;
+}
+
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+h2,
+small {
+    text-align: center;
+}
+p{
+    font-size: 20px;
+
+}
+
+.subtitulo{
+    color: rgb(143, 34, 34);
+    font-size: 23px;
+}
+span{
+    display: flex;
+    justify-content: space-around;
+}
+.causa-imagen{
+    display: flex;
+    align-self: center;
+}
+a {
+    text-align: center;
+    font-size: 60;
+    color: rgb(36, 7, 7); 
+    animation: fadeIn 1s ease-in;
+    text-decoration: none;
+}
+iframe{
+    display: block;
+     margin: auto;
+     margin-bottom: 20px;
+}
+
+
+/*FOOTER*/ 
+
+.footer__utility {
+    position: absolute;
+    width: 100%;
+    margin-top: 0%;
+    background-color: rgb(208, 218, 126);
+    padding: 2%;
+}
+
+.footer__utility ul{
+    text-decoration: none;
+    list-style: none;
+}
+.footer-width {
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
+}

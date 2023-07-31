@@ -1,0 +1,424 @@
+<!--DOCTYPE- declaracion de archivo tipo HTML-->
+<!DOCTYPE html>
+<!--html - encapsular todo nuestro codigo - lang (language)-->
+<html lang="es">
+<!--HEAD (Metadata) informacion para el navegador-->
+
+<head>
+    <!--CHARSET - conjunto de caracteres-->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2465/2465301.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title / Nombre de sitio we en ventana-->
+    <title>Animales en peligro de extinción</title>
+    <!--link-para enlazar html+css rel: relacion del docu y href: ubicacion del documento -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Link para conectar nueva fuente Taviraj-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Taviraj:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@700&family=Bungee+Spice&display=swap" rel="stylesheet">
+
+</head>
+<!--BODY / lo que ve el usuarix-->
+
+<body>
+    <!--Encabezados <h1>¡Hola, mundo!</h1> -->
+
+    <!-- HR -  linea separadora-->
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #5bbd60">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Animales en peligro de extinción 🚨</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=3_IZBB-MijI">PROTEGER a los animales
+                            en PELIGRO de EXTINCIÓN 🐼🐯</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menú
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#cuando">¿Cuándo se considera una especie en peligro de
+                                    extinción?</a></li>
+                            <li><a class="dropdown-item" href="#cuantos">¿Cuántos animales están en peligro de
+                                    extinción?</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#causas">Causas de que los animales estén en peligro de
+                                    extinción</a></li>
+                            <li><a class="dropdown-item" href="#proteger">Formas de contrarestar la extinción</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <!--Introduccion-->
+        <div class="intro">
+            <p> Desde que la vida surgió en la Tierra, la fauna que ha habitado en ella ha cambiado en muchas ocasiones.
+                Durante sus miles de años de existencia y por diversas razones, se han producido cinco grandes extinciones
+                de las especies que han poblado la Tierra: son las conocidas como las cinco extinciones masivas. En la
+                actualidad, y debido a la acción de los seres humanos, el planeta está al borde de los que los científicos
+                denominan la Sexta Gran Extinción. Pero, ¿es realmente un problema tan grave?</p>
+                <div class="bienvenida">
+                    <p> Bienvenidxs a nuestra página dedicada a los animales en extinción, un espacio creado con un objetivo claro: concienciar sobre la urgente necesidad de proteger la rica biodiversidad que compone nuestro planeta.
+                    </p>
+        </div>
+    </div>
+
+    
+<!-- Carrusel de animales y galeria de fotografias-->
+    <h2 class="conoce" >Conoce a algunos animales en peligro de extinción:</h2>
+
+    <div id="datoscuriosos-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <img class="datos-foto" src="images/ajolote.jpg" alt="Foto de ajolote">
+                    <div class="datos-info">
+                        <p class="fuente">Ajolote</p>
+                    </div>
+                    <p class="datos-texto-texto">En el axolotl, los aztecas vieron una manifestación del dios Xolotl,
+                        quien llevó a las almas al inframundo junto con el sol poniente. Los aztecas veneraban la carne
+                        del ajolote (como se le puede nombrar) y atrapaban a las criaturas de la enorme red de canales y
+                        lagos que sostenían sus comunidades en el centro de México. Hoy, solo queda una fracción de este
+                        sistema acuático, y está siendo contaminado por los fertilizantes, pesticidas, heces y basura de
+                        la Ciudad de México.
+                        Los axolotls, al igual que sus primos europeos, los olms, son neoténicos, lo que significa que
+                        alcanzan la madurez sexual luciendo como larvas; conservando sus agallas y cola. Esto provoca
+                        que no se desarrollen físicamente, pero se regeneran. El ajolote, como también se le conoce,
+                        hacer crecer las extremidades, los huesos y los órganos que les han sido dañados o cortados. Son
+                        mil veces más resistentes al cáncer que los mamíferos. Si sobreviven a las amenazas modernas el
+                        tiempo suficiente para que comprendamos sus células inmunitarias, podríamos realizar avances
+                        tremendos en numerosas terapias médicas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img class="datos-foto " src="images/mandril.jpg" alt="Foto de mandril">
+                    <div class="datos-info">
+                        <p class="fuente">Mandril</p>
+                    </div>
+                    <p class="datos-texto-texto"> El estilo lo es todo cuando vives en un grupo tan grande como el de un
+                        mandril. Con una tropa de 1.300 ejemplares una vez registrada en los bosques de Gabón, se cree
+                        que los mandriles forman los grupos sociales más grandes de primates no humanos. Con sus
+                        llamativas caras y ojos, han evolucionado para exhibir la coloración más espectacular de
+                        cualquier especie de mamífero, cuya intensidad indica su estado social y sexual.
+                        Lamentablemente, no es solo su apariencia lo que es atractivo. La carne de mandril se considera
+                        un manjar en el oeste de África, y es parte de un comercio en crecimiento, con toneladas de
+                        carne de animales silvestres introducidas de contrabando en el oeste de Europa a diario. Debido
+                        a que los mandriles viven en grupos tan grandes, gran parte de su población puede caer en el
+                        comercio en auge en una sola cacería. La tala y la agricultura también están limitando sus
+                        lugares de refugio, por lo que estos notables animales necesitan urgentemente una protección más
+                        eficaz. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img class="datos-foto " src="images/mono-dorado.jpg" alt="Foto de mono dorado">
+                    <div class="datos-info">
+                        <p class="fuente">Mono dorado de nariz chata</p>
+                    </div>
+                    <p class="datos-texto-texto">Localizado a lo largo de las montañas del centro de China, el mono
+                        dorado de nariz chata soporta algunos de los inviernos más duros de cualquier primate no humano
+                        puede soportar. Su capa de pelo larga y suave lo protege de los vientos helados mientras que su
+                        rostro desnudo soporta la mayor parte del frío. Ha sido cazado durante mucho tiempo por su
+                        hermoso pelaje, pero desde principios de la década de 1990, la caza furtiva se ha reducido
+                        gracias a una mayor protección del gobierno. No obstante, su número ha seguido disminuyendo a
+                        medida que se despejaron sus bosques para la obtención de madera y la creación de tierras de
+                        cultivo. Además, el turismo se ha expandido al amparo del crecimiento económico de China, y las
+                        manadas de monos se han visto fuertemente hostigadas y perseguidas para ser vistas. Tan solo
+                        alrededor de 120 ejemplares de esta especie sobreviven en la actualidad en estado salvaje.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img class="datos-foto " src="images/lemures.jpg" alt="Foto de lemur">
+                    <div class="datos-info">
+                        <p class="fuente">Lémures</p>
+                    </div>
+                    <p class="datos-texto-texto">Solo queda el 10% de los bosques históricos de Madagascar, los cuales
+                        sustentan a estos lémures en peligro crítico. Con una gran pasión por el néctar, se cree que los
+                        lémures son los polinizadores más grandes del mundo. A diferencia de la mayoría de los primates,
+                        dan a luz a grandes camadas, por lo que prosperan en cautiverio, donde las tasas de
+                        supervivencia son altas. Pero debido a que han sido criados a partir de un grupo genético muy
+                        pequeño, las reintroducciones posteriores entrañan muchas complicaciones. Su conservación se
+                        logrará cuando simplemente los dejemos en paz en un dosel de selva virgen.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img class="datos-foto " src="images/anfibio.jpg" alt="Foto de anfibio">
+                    <div class="datos-info">
+                        <p class="fuente">Anfibios en peligro de extinción</p>
+                    </div>
+                    <p class="datos-texto-texto">El clima cambiante también está fomentando la propagación de un hongo
+                        mortal conocido como el hongo quítrido de los anfibios. Los bosques de tierras bajas se vuelven
+                        más cálidos, pero a medida que aumenta la humedad, se forman nubes más gruesas en las montañas y
+                        el hábitat de estas ranas se vuelve mucho más frío. Como las ranas son ectotérmicas -dependen de
+                        fuentes externas para el calor corporal-, su sistema inmunitario se debilita y el hongo quítrido
+                        prospera. La enfermedad resultante, la quitridiomicosis, tiene anfibios afectados en todo el
+                        mundo, infectando y destruyendo más especies de vertebrados que cualquier enfermedad en la
+                        historia registrada. Un tercio de las especies de anfibios ahora están en peligro de extinción;
+                        alrededor de 120 ya se han perdido.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#datoscuriosos-carrusel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#datoscuriosos-carrusel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    </div>
+    <hr>
+    <h2 class="galeria-title">Galería de fotos</h2>
+    <span class="galeria">
+        <!--IMAGES A TRAVES DE INTERNET-->
+        <img class="polar" src="/images/oso-polar.jpg" alt="Imagen de oso polar">
+        <!--IMAGENES A TRAVES DE COMPUTADORA-->
+        <!--<img  class="lef-img"
+    src="https://w7.pngwing.com/pngs/395/883/png-transparent-human-brain-brain-injury-brain-damage-disease-brain-food-people-cell.png" alt="Imagen de molécula de sorbitol"> -->
+        <img src="https://www.nationalgeographic.com.es/medio/2018/03/23/exito_1ad5e36d.jpg" alt="">
+        <img src="https://www.nationalgeographic.com.es/medio/2018/04/10/el-fantasma-de-las-montanas_5b21cdd1.jpg"
+            alt="">
+        <img src="https://www.nationalgeographic.com.es/medio/2018/03/23/perdida-entre-la-multitud_86c63fc7_1016x648.jpg"
+            alt="">
+        <img src="https://www.nationalgeographic.com.es/medio/2018/03/23/mas-que-humano_1d341cef.jpg" alt="Chimpancé">
+        <img src="https://www.nationalgeographic.com.es/medio/2018/03/23/a-delicate-balance_64681816.jpg"
+            alt="Equilibrio">
+    </span>
+    <hr>
+    <div>
+        <!--INDICE CON ANCLAS-->
+
+        <div class="menu">
+            <a href="#cuando">¿Cuándo se considera una especie en peligro de extinción?</a> <br>
+            <a href="#cuantos">¿Cuántos animales están en peligro de extinción?</a> <br>
+            <a href="#causas">Causas de que los animales estén en peligro de extinción</a> <br>
+            <a href="#proteger">Formas de contrarestar la extinción</a>
+        </div>
+    <!--CONTENIDO-->
+        <!--div Listas-->
+        <h3>Animales en peligro de extinción en el mundo</h3>
+        <!--OL -ordered list-->
+        <ol>
+            <!--li item list- elemento de lista-->
+            <li>Oso polar</li>
+            <li>Lince ibérico</li>
+            <li>Tigre de Sumatra</li>
+            <li>Rinoceronte blanco</li>
+            <li>Leopardo de las nieves</li>
+            <li>Oso panda</li>
+            <li>Chimpancé común</li>
+            <li>Pangolín</li>
+            <li>Orangután de Borneo</li>
+            <li>Ajolote</li>
+            <li>Atún rojo</li>
+
+        </ol>
+        <h3>Animales en peligro de extinción en México</h3>
+        <!--UL- unordered list-->
+        <ul>
+            <li>Ajolote</li>
+            <li>Jaguar</li>
+            <li>Lobo mexicano</li>
+            <li>Oso negro</li>
+            <li>Vaquita marina</li>
+            <li>Tortuga caguama</li>
+            <li>Guacamayo rojo</li>
+            <li>Ocelote</li>
+            <li>Manatí</li>
+            <li>Tapir</li>
+            <li>Mapache de Cozumel o mapache pigmeo</li>
+            <li>Musaraña de Los Tuxtlas</li>
+            <li>Picamaderos impertial o carpintero imperial</li>
+            <li>Conejo matorralero de la Isla San José</li>
+            <li>Rana fisgona mayor</li>
+            <li>Picote tequila</li>
+            <li>Pardela de Townsend</li>
+            <li>Tortuga del bolsón</li>
+            <li>Coqueta de Guerrero</li>
+            <li>Quetzal</li>
+        </ul>
+    </div>
+
+    <!--PARRAFOS-->
+    <h3 id="cuando">¿Cuándo se considera una especie en peligro de extinción?</h3>
+    <p>Se considera que una especie está en peligro de extinción cuando todos los representantes de la misma corren el
+        riesgo de desaparecer de la faz de la Tierra. La definición legal de una especie en peligro de extinción, como
+        lo
+        estipula la Ley de Especies en Peligro de Extinción de Estados Unidos, es
+        una especie en peligro inminente de extinción en toda su zona de distribución o en parte importante de ésta. (La
+        zona de distribución de una especie
+        es el área donde se encuentra dicha especie). A menos que intervengan los
+        humanos, es probable que una especie en peligro de extinción desaparezca.
+        Cuando la extinción es menos inminente pero la población de una
+        especie particular es demasiado pequeña, dicha especie se clasifi ca como
+        amenazada. La defi nición legal de especie amenazada de extinción es:
+        una especie con probabilidad de estar en peligro de extinción en el futuro
+        inmediato, en toda su zona de distribución o en parte importante de ésta
+
+    </p>
+    <h3 id="cuantos">¿Cuántos animales están en peligro de extinción?</h3>
+    <p>Según datos de la Unión Internacional para la Conservación de la Naturaleza (UICN), el organismo internacional
+        con mayor potestad sobre el problema, aproximadamente 5.200 especies de animales se encuentran en peligro de
+        extinción en la actualidad. Además, en un desglose por clase, se encuentran en peligro de extinción el 11% de
+        las aves, el 20% de los reptiles, el 34% de los peces y 25% de los anfibios y mamíferos.
+    </p>
+    <h3 id="causas">Causas de que los animales estén en peligro de extinción</h3>
+    <span></span>
+    <p>Existen múltiples causas por las que una especie puede llegar a encontrarse al borde de la extinción. Las razones
+        pueden resultar tremendamente particulares para cada especie, pero en líneas generales, entre las mayores
+        amenazas se encuentra la destrucción y fragmentación de sus hábitats; el cambio climático; la caza y tráfico
+        ilegal; y la introducción de especies exóticas.
+        Muchas especies en peligro o amenazadas comparten ciertas características que pueden hacerlas más vulnerables a
+        la extinción. Algunas de
+        estas características incluyen tener una zona de distribución extremadamente pequeña (localizada), requerir un
+        gran territorio, vivir en islas,
+        tener poco éxito reproductivo, necesitar áreas de reproducción especializadas y poseer hábitos de alimentación
+        particulares.
+    </p>
+    <img class="causa-imagen" src="images/causas.JPG" alt="causas">
+    <h5 class="subtitulo">Las actividades humanas contribuyen
+        a la disminución de la diversidad biológica</h5>
+    <p>Las especies se ponen en peligro y se extinguen por varias razones, incluyendo la destrucción o modifi cación de
+        sus hábitats (es decir, el cambio en el uso de la tierra) y la producción de contaminantes, incluidos
+        los gases de efecto invernadero que ocasionan el cambio climático. Los
+        humanos también trastornan el delicado equilibrio de los organismos en
+        una zona al introducir especies invasoras. La explotación excesiva, como
+        la sobrepesca es también un factor. Existe una interacción
+        entre estas causas directas de disminución de la diversidad biológica y factores humanos indirectos como el
+        incremento de la población humana</p>
+    </span>
+    <h3 id="proteger">Formas de contrarestar la extinción</h3>
+    <!--ACORDEON-->
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button bg-success text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Conservación in situ
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body ">
+                    <strong>La conservación in situ es la mejor manerau, que incluye el
+                        establecimiento de parques y reservas, se centra en la preservación de la
+                        diversidad biológica en la naturaleza. Una gran prioridad de la conservación in situ es identifi
+                        car y proteger sitios que alojan una gran cantidad de diversidad. Sin embargo, con las
+                        crecientes demandas de tierra,
+                        la conservación in situ no puede preservar todos los tipos de diversidad
+                        biológica. Algunas veces, sólo la conservación ex situ puede salvar a una
+                        especie
+                        de preservar la diversidad biológica
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button bg-success text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Conservación ex situ
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse bg-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>La conservación ex situ conserva especies individuales en instalaciones controladas por humanos. La crianza de especies en cautiverio en
+                        zoológicos y el almacenamiento de semillas de cultivos vegetales genéticamente diversos son ejemplos de la conservación ex situ.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button bg-success text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Ecología de la restauración
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse bg-light" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Aunque la preservación de hábitats es parte importante
+                        de la biología de la conservación, las realidades del
+                        mundo, que incluyen el hecho de que el apetito de tierra por parte de los humanos sigue creciendo, dictan una
+                        variedad de otras medidas de conservación. Algunas veces los científi cos reclaman terrenos sin perturbar y los transforman en zonas con una
+                        gran biodiversidad biológica. La ecología
+                        de la restauración, en la cual los principios
+                        de la ecología se usan para transformar un
+                        ambiente degradado en uno más funcional
+                        y sustentable, forma parte importante de la
+                        conservación in situ.
+                </div>
+            </div>
+        </div>
+    </div>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3_IZBB-MijI"
+        title="PROTEGER a los animales en PELIGRO de EXTINCIÓN 🐼🐯 ¿Por qué es importante? ¿Cómo ayudar?"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+
+    <!-- footer-->
+    <div id="footer" class="footer nav-scroll-section" role="contentinfo" aria-label="site footer">
+        <div class="footer__mit-logo">
+            <a href="/" class="site__logo-link" rel="home" title="MIT School of Science">
+                <span class="visually-hidden">MIT School of Science</span>
+        </div>
+        <div class="footer__utility footer-width">
+            <ul class="footer__utility-list">
+                <li class="utility__list-item">
+                    <a href="https://tecnolochicas.mx/" target="_blank" class="utility__list-link"
+                        data-external="true">Esta página fue realizada gracias a TECNOLOchicas<span class="tool-tip">
+                            https://tecnolochicas.mx/</span></a>
+                </li>
+                <li class="utility__list-item">
+                    <a href="https://mail.google.com/mail/u/0/?pli=1" target="_blank" class="utility__list-link"
+                        data-external="true">Contacto<span class="tool-tip"> nataliaeo1445@gmail.com</span></a>
+                </li>
+                <li class="utility__list-item">
+                    <a href="https://www.nationalgeographic.com.es/naturaleza/grandes-reportajes/animales-peligro-extincion_12536"
+                        target="_self" class="utility__list-link">nationalgeographic
+                        https://www.nationalgeographic.com.es/naturaleza/grandes-reportajes/animales-peligro-extincion_12536
+                    </a>
+                </li>
+                <li class="utility__list-item">
+                    <a href="https://latam.cengage.com/libros/biologia-2/" target="_self"
+                        class="utility__list-link">Solomon, Berg, Martin & Villee : Biología de Villee; 3ra ed..
+                        Editorial Interamericana,. Mc Graw Hill , México, 1996.</a>
+                </li>
+                <li class="utility__list-item"><span>2023 Natalia Esquivel</span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
